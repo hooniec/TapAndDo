@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "986629458335",
+    "firebase_url": "https://tapanddo-6f5ee-default-rtdb.firebaseio.com",
+    "project_id": "tapanddo-6f5ee",
+    "storage_bucket": "tapanddo-6f5ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986629458335:android:d55d65277d7b5d75a955aa",
+        "android_client_info": {
+          "package_name": "com.example.tapanddo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986629458335-4rhiha9vahrfjcam03o118jdn2ihb7b3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tapanddo",
+            "certificate_hash": "222d3008f5741d9283adecd55abf98c14d92b909"
+          }
+        },
+        {
+          "client_id": "986629458335-oqrk7mro67hor3cosltjvpntq2merbrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5jB5ZrISyIh3UJNT6R7IxUdXqGJsGrcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986629458335-oqrk7mro67hor3cosltjvpntq2merbrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

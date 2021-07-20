@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/add_sales_dialog">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp">
+
+        <TextView
+            android:id="@+id/add_sales_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Sales"
+            android:textSize="20sp"
+            android:textColor="@color/mainColorLight"
+            android:layout_marginTop="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/add_sales_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_sales_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/add_sales_cash_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_sales_date"
+            android:layout_marginTop="15dp"
+            android:text="Cash"/>
+
+        <EditText
+            android:id="@+id/add_sales_cash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_sales_cash_text"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/add_sales_card_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_sales_cash"
+            android:layout_marginTop="5dp"
+            android:text="Card"/>
+
+        <EditText
+            android:id="@+id/add_sales_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_sales_card_text"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/add_sales_transfer_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_sales_card"
+            android:layout_marginTop="5dp"
+            android:text="Transfer"/>
+
+        <EditText
+            android:id="@+id/add_sales_transfer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_sales_transfer_text"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/add_sales_total_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_sales_transfer"
+            android:layout_marginTop="5dp"
+            android:text="Total"/>
+
+        <EditText
+            android:id="@+id/add_sales_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_sales_total_text"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/add_sales_cal_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_sales_total"
+            android:text="Get Total"
+            android:background="@drawable/btn"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Employees"
+    android:id="@+id/employees">
+
+    <TextView
+        android:id="@+id/emp_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/employees_name"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/mainColorLight"
+        android:layout_marginTop="30dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emp_text"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:layout_marginTop="40dp">
+
+        <ListView
+            android:id="@+id/emp_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </FrameLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/emp_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/ic_add"
+        android:backgroundTint="@color/mainColorLight"/>
+
+
+</RelativeLayout>

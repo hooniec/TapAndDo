@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">TapAndDo</string>
+    <string name="settings_name">Settings</string>
+    <string name="update_name">Update</string>
+    <string name="help_name">Help</string>
+    <string name="help_guide">We’re here to help and answer any question you might have. We look forward to hearing from you</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="contact_detail">Email : Info@tapndo.com</string>
+    <string name="booking_name">Booking</string>
+    <string name="sales_name">Sales</string>
+    <string name="employees_name">Employees</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="login_title">LOGIN</string>
+    <string name="login_welcome">Welcome to Tap N Do</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="signup">Sign up</string>
+    <string name="signout">Sign Out</string>
+    <string name="signup_info">Enter your details</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="newpw">New Password</string>
+    <string name="conpw">Confirm Password</string>
+    <string name="select_date">Select Date</string>
+
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help_title">What can I help you with?</string>
+</resources>

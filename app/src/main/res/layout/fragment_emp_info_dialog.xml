@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/emp_info_dialog">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp">
+
+        <TextView
+            android:id="@+id/update_emp_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Employee"
+            android:textSize="20sp"
+            android:textColor="@color/mainColorLight"
+            android:layout_marginTop="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/update_emp_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/update_emp_title"
+            android:layout_marginTop="15dp"
+            android:text="@string/fname"/>
+
+        <EditText
+            android:id="@+id/update_emp_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/update_emp_name_text"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/update_emp_position_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/update_emp_name"
+            android:layout_marginTop="5dp"
+            android:text="Position"/>
+
+        <EditText
+            android:id="@+id/update_emp_position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/update_emp_position_text"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/update_emp_phone_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/update_emp_position"
+            android:layout_marginTop="5dp"
+            android:text="Phone"/>
+
+        <EditText
+            android:id="@+id/update_emp_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/update_emp_phone_text"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/update_emp_email_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/update_emp_phone"
+            android:layout_marginTop="5dp"
+            android:text="Email"/>
+
+        <EditText
+            android:id="@+id/update_emp_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/update_emp_email_text"
+            android:inputType="text"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

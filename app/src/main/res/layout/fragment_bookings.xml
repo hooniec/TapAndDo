@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Bookings"
+    android:id="@+id/bookings">
+
+    <TextView
+        android:id="@+id/booking_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/booking_name"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/mainColorLight"
+        android:layout_marginTop="30dp" />
+
+    <CalendarView
+        android:id="@+id/booking_calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/booking_text"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/booking_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/booking_calendarView"
+        android:paddingHorizontal="30dp"
+        android:text="@string/select_date"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/show_bottom_sheet_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Bookings on the date"
+        android:background="@drawable/btn"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_booking_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/ic_add"
+        android:backgroundTint="@color/mainColorLight"/>
+
+</RelativeLayout>
